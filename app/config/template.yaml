@@ -1,0 +1,17 @@
+# 本文件定义通用配置信息，是一个配置模板
+# **机密配置信息也需要在此文件配置**，但并不填入真正的机密配置内容。
+
+# 是否开发者模式
+isDebug: true
+
+# http server 监听地址
+addr:
+  - ":80"
+
+# 登录短信验证码（阿里云接口）
+aliyunLoginSms:
+  accessKeyID: xxx
+  accessKeySecret: xxx
+  regionId: xxx
+  signName: xxx
+  templateCode: xxx

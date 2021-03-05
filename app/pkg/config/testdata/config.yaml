@@ -1,0 +1,7 @@
+version: v1
+
+logpath: /root/a.log
+
+mysql:
+  user: root
+  password: root
